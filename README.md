@@ -10,12 +10,10 @@ From this data, your program should print out a row of stars of the given length
 Ex:
 $ ./myprog1.sh filename
 
-********************
-
+"********************"
 "******************"
-
 "*****" 
-
 "********************************"
-
 "****"
+
+
