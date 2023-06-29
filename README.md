@@ -9,9 +9,8 @@
 From this data, your program should print out a row of stars of the given length for each integer. For the input above, your program should print the following:
 Ex:
 $ ./myprog1.sh filename
-"
-******************** 
-******************
-***** 
-******************************** 
-****"
+"********************"
+"******************"
+"*****" 
+"********************************"
+"****"
