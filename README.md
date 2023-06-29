@@ -23,16 +23,24 @@ $ ./myprog1.sh filename
 2) Write a shell script that reads integers (one-per-line) from the user until it reads the word “end”. Afterward, it will report the maximum number given by the user.
 Ex:
 $ ./myprog2.sh
+
 Enter a sequence of numbers followed by "end" 7
+
 18
+
 42
+
 123
+
 92
+
 end
+
 Maximum : 123
 
-3) Write a shell script that takes an optional argument as a directory and removes all zero length ordinary files in the directory. If directory argument is not given, it should remove all zero-length files in the current directory. If given directory argument is not a valid directory, your program should terminate with an error (exit 1). You can use man [ command to learn more about checking file information.
+4) Write a shell script that takes an optional argument as a directory and removes all zero length ordinary files in the directory. If directory argument is not given, it should remove all zero-length files in the current directory. If given directory argument is not a valid directory, your program should terminate with an error (exit 1). You can use man [ command to learn more about checking file information.
 Ex:
+
 $ ls –l /home/std/Desktop
 -rw------- 1 std std 152144 Jun 20 2005 alice-in-wonderland.txt -rw------- 1 std std 0 Jun 20 2005 barleby-scrivener.txt -rw------- 1 std std 13421 Jun 20 2005 calaveras-county.txt -rw------- 1 std std 635 Jun 20 2005 french.txt
 -rw------- 1 std std 0 Jun 20 2005 hawthorne.txt
